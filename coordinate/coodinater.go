@@ -25,7 +25,6 @@ func (c *Coordinate)Equal(Pos *Coordinate) bool {
 	}
 
 	return flag
-
 }
 
 func (c *Coordinate)SetX(i interface{}){
@@ -35,7 +34,6 @@ func (c *Coordinate)SetX(i interface{}){
 	case int:
 		c.X = v
 	}
-
 }
 
 func (c *Coordinate)SetY(i interface{}){
@@ -45,5 +43,4 @@ func (c *Coordinate)SetY(i interface{}){
 	case int:
 		c.Y = v
 	}
-
 }

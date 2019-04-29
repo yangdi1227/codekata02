@@ -41,10 +41,6 @@ func start(){
 			continue
 		}
 	}
-
-
-
-
 }
 
 
